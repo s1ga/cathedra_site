@@ -1,0 +1,204 @@
+@font-face{
+	font-family: 'Montserrat';
+	src:url(../fonts/Montserrat-Bold.ttf);
+	src:url(../fonts/Montserrat-SemiBold.ttf);
+	src:url(../fonts/Montserrat-Medium.ttf);
+	src:url(../fonts/Montserrat-Regular.ttf);
+}
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	cursor: default;
+	font-size: 16px;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #18806e;
+	margin-bottom: 50px;
+}
+
+.logo{
+	width: 70%;
+	color:black;
+}
+
+.nav{
+	display: grid;
+	grid-template-columns: 30% 60%;
+	justify-content: space-around;
+}
+
+.nav_box{
+	display: grid;
+	grid-template-columns: 1fr 1.5fr 1fr 1fr;
+	margin-top: 25px;
+	font-size: 18px;
+
+}
+
+.nav_box_link{
+	text-decoration: none;
+	color: #000;
+	cursor: pointer;
+}
+
+.nav_box_link:hover{
+	text-decoration: underline;
+}
+
+.heading{
+	font-size: 32px;
+	margin-bottom: 60px;
+}
+
+.subheading{
+	font-size: 28px;
+	margin-bottom: 25px;
+}
+
+.cathedra_info_box{
+	margin-bottom: 45px;
+}
+
+.cathedra_info_list{
+	margin-left: 50px;
+	list-style-type: square; 
+}
+
+.cathedra_info_list li{
+	color: #18806e;
+	padding-bottom: 10px;
+}
+
+.cathedra_info_par{
+	color: #000;
+	margin-bottom: 10px;
+}
+
+.cathedra_info_span{
+	font-weight: bold;
+}
+
+.cathedra_description{
+	width: 70%;
+	margin-bottom: 45px;
+}
+
+
+.cathedra_description_par{
+	line-height: 1.4;
+	margin-bottom: 20px;
+}
+
+.cathedra_achive{
+	width: 70%;
+	margin-bottom: 65px;
+}
+
+.contact_box{
+	display: grid;
+	grid-template-columns: 50px 1fr;
+	margin-bottom: 10px;
+}
+
+.svg-img{
+	width: 25px;
+	height: 25px;
+}
+
+.contact_par{
+	line-height: 1.4;
+	margin-bottom: 20px;
+	padding-top: 5px;
+}
+
+.form *{
+	width: 350px;
+	margin-top: 20px;
+}
+
+.button{
+	width: 100px;
+	border-radius: 5px;
+}
+
+.employee{
+	display: grid;
+	grid-template-columns: 300px 1fr;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.employee_img{
+	width: 250px;
+	height: 330px;
+	transition: .3s ease-out;
+}
+
+.employee_img:hover{
+	transform: scale(1.07);
+	/*width: 100vh;*/
+}
+
+.employee_description{
+	margin-top: 10px;
+}
+
+.employee_heading{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.employee_description_par{
+	color: 	#696969;
+	margin-bottom: 5px;
+}
+
+.employee_disciplines_box{
+	display: grid;
+	grid-template-columns: 35px 1fr;
+	margin-top: 30px;
+}
+
+.employee_disciplines_title{
+	width: 40%;
+	cursor: pointer;
+	padding-bottom: 12px;
+	margin-top: 7px;
+}
+
+.employee_disciplines_menu{
+	list-style: none;
+	display: none;
+	margin-left: 35px;
+}
+
+.employee_disciplines_menu li{
+	padding-bottom: 7px;
+}
+
+.emloyee_links{
+	color: #000;
+	text-decoration: none;
+}
+
+.emloyee_links:hover{
+	text-decoration: underline;
+}
+
+.footer{
+	background-color: #18806e;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.footer_link{
+	color: #000;
+}
